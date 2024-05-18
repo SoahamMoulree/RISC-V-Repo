@@ -2,10 +2,11 @@
 
 ## 4 Bit ALU C code 
 
-#include<stdio.h>
-#include<stdlib.h>
 
-int main(){
+    #include<stdio.h>
+    #include<stdlib.h>
+
+    int main(){
     int number1,number2;
     char function;
     int result = 0;
@@ -37,4 +38,7 @@ int main(){
     return(0);
     
     
-}
+    }
+
+
+
