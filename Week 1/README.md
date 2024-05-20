@@ -31,6 +31,22 @@
         case '*':
         result = number1*number2;
         break;
+
+        case '&':
+        result = number1&number2;
+        break;
+
+        case '|':
+        result = number1|number2;
+        break;
+
+        case '^':
+        result = number1^number2;
+        break;
+
+        default:
+            printf("Cannot perform this operation\n");
+            
         
     }
     printf("The result is : %d\n", result&0x0F);
