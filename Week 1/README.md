@@ -69,6 +69,15 @@
     
     }
 
+#### OUTPUT FOR THE C CODE:
+
+![image](https://github.com/SoahamMoulree/RISC-V-Repo/assets/169994191/be533228-b65b-490f-b990-7c30b97355c0)
+
+![image](https://github.com/SoahamMoulree/RISC-V-Repo/assets/169994191/a646413a-2b12-4119-8683-4c0d1d55b4c8)
+
+
+
+
 ## VERILOG CODE FOR 4-BIT ALU
 
 #### Verilog Code
