@@ -75,21 +75,25 @@
 
 Code provided in the file "alu.v"
 
-/home/vsduser/Pictures/Screenshot from 2024-05-21 08-30-58.png
+![WhatsApp Image 2024-05-21 at 08 40 34_f81d3ec9](https://github.com/SoahamMoulree/RISC-V-Repo/assets/169994191/398c01ae-5182-4acb-a154-fb8b29ddf79b)
+
 
 #### Testbench Code
 
 code provided in the file "alu_tb.v"
 
-/home/vsduser/Pictures/Screenshot from 2024-05-21 08-30-41.png
+![WhatsApp Image 2024-05-21 at 08 40 34_b5bfce65](https://github.com/SoahamMoulree/RISC-V-Repo/assets/169994191/f680ef42-5f06-4458-9f65-7b309e4f3658)
+
 
 #### After creating the testbench file, compile the code in the terminal as follows:
 
-/home/vsduser/Pictures/Screenshot from 2024-05-21 08-35-26.png
+![WhatsApp Image 2024-05-21 at 08 40 35_9a028ea0](https://github.com/SoahamMoulree/RISC-V-Repo/assets/169994191/589b3abb-27f1-47ab-9061-30560fa065ed)
+
 
 #### Final GTKWave Simulation
 
-/home/vsduser/Pictures/Screenshot from 2024-05-21 08-22-43.png
+![WhatsApp Image 2024-05-21 at 08 40 35_7604a2aa](https://github.com/SoahamMoulree/RISC-V-Repo/assets/169994191/11499109-7fb9-443f-a945-1818d98787c3)
+
 
 
     
