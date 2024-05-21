@@ -69,5 +69,30 @@
     
     }
 
+## VERILOG CODE FOR 4-BIT ALU
+
+#### Verilog Code
+
+Code provided in the file "alu.v"
+
+/home/vsduser/Pictures/Screenshot from 2024-05-21 08-30-58.png
+
+#### Testbench Code
+
+code provided in the file "alu_tb.v"
+
+/home/vsduser/Pictures/Screenshot from 2024-05-21 08-30-41.png
+
+#### After creating the testbench file, compile the code in the terminal as follows:
+
+/home/vsduser/Pictures/Screenshot from 2024-05-21 08-35-26.png
+
+#### Final GTKWave Simulation
+
+/home/vsduser/Pictures/Screenshot from 2024-05-21 08-22-43.png
+
+
+    
+
 
 
