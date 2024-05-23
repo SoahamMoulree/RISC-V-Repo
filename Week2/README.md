@@ -1,1 +1,5 @@
+# ASSIGNMENT 3
+
+## SPIKE CODE
+#### COUNTER
 
