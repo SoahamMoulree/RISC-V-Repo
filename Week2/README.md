@@ -77,13 +77,13 @@
 #### MATRIX MULTIPLICATION.    
 
 CPU time = (total number of clock cycles) * (total number of instructions)*(time period of 1 clock cycle)
-         = (119)(42)(1ps) = 4998ps
+         = (119)*(42)*(1ps) = 4998ps
 
 
 #### 4-BIT ALU   
 
 CPU time = (total number of clock cycles) * (total number of instructions)*(time period of 1 clock cycle)
-         = (169)(45)(1ps) = 7605ps
+         = (169)*(45)*(1ps) = 7605ps
 
 
 
