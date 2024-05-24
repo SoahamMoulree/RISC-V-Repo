@@ -30,10 +30,14 @@
    
 #### COUNTER
   - Perfom the same instructions as shown in the matrix example(Don't comment out the time.h library).
+![WhatsApp Image 2024-05-24 at 13 50 46_1e965ce7](https://github.com/SoahamMoulree/RISC-V-Repo/assets/169994191/c90768a1-e0cd-435e-aae7-89ea30553467)
+
 ![WhatsApp Image 2024-05-24 at 13 38 43_02dbec14](https://github.com/SoahamMoulree/RISC-V-Repo/assets/169994191/8956d912-dfe0-44d2-af8b-2d4766831eaf)
 
 #### 4-BIT ALU
   - Perform the same instructions as shown in the matrix example.
+![WhatsApp Image 2024-05-24 at 13 51 32_112225a3](https://github.com/SoahamMoulree/RISC-V-Repo/assets/169994191/9daa5130-0263-4a17-be36-e859cd683fd0)
+
 ![WhatsApp Image 2024-05-24 at 13 31 45_079d39f1](https://github.com/SoahamMoulree/RISC-V-Repo/assets/169994191/da866149-839f-44c7-9673-86465a10d309)
 
 ## CALCULATING THE CPU PERFORMANCE.
