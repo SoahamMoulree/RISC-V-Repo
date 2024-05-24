@@ -17,10 +17,7 @@
 
 ## GENERATING ASSEMBLY CODE FOR THE COUNTER, MATRIX AND ALU C CODE IN RISC V COMPILER
 
-#### Assembly Code is uploaded as a txt file in this repo. Steps provided here :
-
-#### MATRIX
-#### USING GODBOLT
+### USING GODBOLT
 
 #### COUNTER
 
@@ -35,7 +32,11 @@
 ![WhatsApp Image 2024-05-24 at 19 15 53_ea92d8ba](https://github.com/SoahamMoulree/RISC-V-Repo/assets/169994191/518b1151-97d3-43fd-aa52-ee23318897a3)
 
 
-#### USING RISC V DISASSEMBLER
+### USING RISC V DISASSEMBLER
+
+#### MATRIX
+#### Assembly Code is uploaded as a txt file in this repo. Steps provided here :
+
   - Comment out the libraries, printf and scanf statement from the c program.
   
  ![WhatsApp Image 2024-05-24 at 13 31 45_4dbf1913](https://github.com/SoahamMoulree/RISC-V-Repo/assets/169994191/8c082269-9b2e-4623-a989-03b336fb4e30)
