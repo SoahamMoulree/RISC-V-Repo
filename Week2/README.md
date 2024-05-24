@@ -30,7 +30,7 @@
    
 #### COUNTER
   - Perfom the same instructions as shown in the matrix example(Don't comment out the time.h library).
-- ![WhatsApp Image 2024-05-24 at 13 38 43_02dbec14](https://github.com/SoahamMoulree/RISC-V-Repo/assets/169994191/8956d912-dfe0-44d2-af8b-2d4766831eaf)
+![WhatsApp Image 2024-05-24 at 13 38 43_02dbec14](https://github.com/SoahamMoulree/RISC-V-Repo/assets/169994191/8956d912-dfe0-44d2-af8b-2d4766831eaf)
 
 #### 4-BIT ALU
   - Perform the same instructions as shown in the matrix example.
