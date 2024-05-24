@@ -20,20 +20,20 @@
 #### Assembly Code is uploaded as a txt file in this repo. Steps provided here :
 
 #### MATRIX
-- Comment out the libraries, printf and scanf statement from the c program.
+  - Comment out the libraries, printf and scanf statement from the c program.
   
  ![WhatsApp Image 2024-05-24 at 13 31 45_4dbf1913](https://github.com/SoahamMoulree/RISC-V-Repo/assets/169994191/8c082269-9b2e-4623-a989-03b336fb4e30)
 
- - Then use the following command to store the assembly code in a txt file.
+  - Then use the following command to store the assembly code in a txt file.
 
 ![WhatsApp Image 2024-05-24 at 13 31 45_596b1077](https://github.com/SoahamMoulree/RISC-V-Repo/assets/169994191/ba3f3f08-19a3-4a90-8c7d-da2a70c6a5c0)
    
 #### COUNTER
-- Perfom the same instructions as shown in the matrix example(Don't comment out the time.h library).
-![WhatsApp Image 2024-05-24 at 13 38 43_02dbec14](https://github.com/SoahamMoulree/RISC-V-Repo/assets/169994191/8956d912-dfe0-44d2-af8b-2d4766831eaf)
+  - Perfom the same instructions as shown in the matrix example(Don't comment out the time.h library).
+- ![WhatsApp Image 2024-05-24 at 13 38 43_02dbec14](https://github.com/SoahamMoulree/RISC-V-Repo/assets/169994191/8956d912-dfe0-44d2-af8b-2d4766831eaf)
 
 #### 4-BIT ALU
-- Perform the same instructions as shown in the matrix example.
+  - Perform the same instructions as shown in the matrix example.
 ![WhatsApp Image 2024-05-24 at 13 31 45_079d39f1](https://github.com/SoahamMoulree/RISC-V-Repo/assets/169994191/da866149-839f-44c7-9673-86465a10d309)
 
 ## CALCULATING THE CPU PERFORMANCE.
