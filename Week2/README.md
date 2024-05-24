@@ -50,7 +50,7 @@
 
 - Taking the assembly code from the godbolt compiler and assign random number of clock cycles it takes to execute the program.
 
-- The assembly codes are provided in a seperate file.The numbers in the bracket(In the Assembly Code file) represent the number of clock cycles it takes to perform a function. Assuming value of 1 clock cycle to be equal to 1ps.
+- The assembly codes are provided in a seperate file(filename_gb.txt).The numbers in the bracket(In the Assembly Code file) represent the number of clock cycles it takes to perform a function. Assuming value of 1 clock cycle to be equal to 1ps.
     
 
   #### COUNTER
