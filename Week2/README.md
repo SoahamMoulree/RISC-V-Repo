@@ -233,9 +233,99 @@ CPU time = (total number of clock cycles) * (total number of instructions)*(time
 
 #### 4-BIT ALU
 
+main:
+        addi    sp,sp,-32    (4)
+        sw      ra,28(sp)    (2)
+        sw      s0,24(sp)    (2)
+        addi    s0,sp,32     (4)
+        sw      zero,-20(s0) (2)
+        lbu     a5,-21(s0)   (3)
+        li      a4,124       (5)
+        beq     a5,a4,.L2    (1)
+        li      a4,124       (5)
+        bgt     a5,a4,.L3    (3)
+        li      a4,47        (5)
+        bgt     a5,a4,.L4    (3)
+        li      a4,38        (5)
+        blt     a5,a4,.L3    (3)
+        addi    a5,a5,-38    (4)
+        li      a4,9         (5)
+        bgtu    a5,a4,.L3    (3)
+        slli    a4,a5,2      (4)
+        lui     a5,%hi(.L6)  (2)
+        addi    a5,a5,%lo(.L6) (4)
+        add     a5,a4,a5     (3)
+        lw      a5,0(a5)     (3)
+        jr      a5           (3)
+.L6:
+        .word   .L10         (4)
+        .word   .L3          (3)
+        .word   .L3          (3)
+        .word   .L3          (3)
+        .word   .L9          (3)
+        .word   .L8          (3)
+        .word   .L3          (3)
+        .word   .L7          (3)
+        .word   .L3          (3)
+        .word   .L5          (3)
+.L4:
+        li      a4,94        (5)
+        beq     a5,a4,.L11   (1)
+        j       .L3          (1)
+.L8:
+        lw      a4,-28(s0)  (3)
+        lw      a5,-32(s0)  (3)
+        add     a5,a4,a5    (3)
+        sw      a5,-20(s0)  (2)
+        j       .L3          (1)
+.L7:
+        lw      a4,-28(s0)  (3)
+        lw      a5,-32(s0)  (3)
+        sub     a5,a4,a5    (3)
+        sw      a5,-20(s0)  (2)
+        j       .L3          (1)
+.L5:
+        lw      a4,-28(s0)  (3)
+        lw      a5,-32(s0)  (3)
+        div     a5,a4,a5    (3)
+        sw      a5,-20(s0)  (2)
+        j       .L3          (1)
+.L9:
+        lw      a4,-28(s0)  (3)
+        lw      a5,-32(s0)  (3)
+        mul     a5,a4,a5    (3)
+        sw      a5,-20(s0)  (2)
+        j       .L3          (1)
+.L10:
+        lw      a4,-28(s0)  (3)
+        lw      a5,-32(s0)  (3)
+        and     a5,a4,a5    (3)
+        sw      a5,-20(s0)  (2)
+        j       .L3          (1)
+.L2:
+        lw      a4,-28(s0)  (3)
+        lw      a5,-32(s0)  (3)
+        or      a5,a4,a5    (3)
+        sw      a5,-20(s0)  (2)
+        j       .L3          (1)
+.L11:
+        lw      a4,-28(s0)  (3)
+        lw      a5,-32(s0)  (3)
+        xor     a5,a4,a5    (3)
+        sw      a5,-20(s0)  (2)
+        nop                   (1)
+.L3:
+        li      a5,0         (5)
+        mv      a0,a5        (2)
+        lw      ra,28(sp)    (2)
+        lw      s0,24(sp)    (2)
+        addi    sp,sp,32     (4)
+        jr      ra           (3)
+
   
 
-
+CPU time = (total number of clock cycles) * (total number of instructions)*(time period of 1 clock cycle)
+         = (169)(45)(1ps) = 7605ps
 
 
 
