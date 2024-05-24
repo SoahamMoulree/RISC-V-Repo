@@ -22,6 +22,19 @@
 #### MATRIX
 #### USING GODBOLT
 
+#### COUNTER
+
+![WhatsApp Image 2024-05-24 at 19 13 07_30cd0688](https://github.com/SoahamMoulree/RISC-V-Repo/assets/169994191/8559d74c-4739-4c3b-84aa-fa9868cd10e1)
+
+#### MATRIX MULTIPLICATION
+
+![WhatsApp Image 2024-05-24 at 19 13 07_489bce63](https://github.com/SoahamMoulree/RISC-V-Repo/assets/169994191/09beb730-88c7-4c59-becf-19c83b614fcc)
+
+#### 4-BIT ALU
+
+![WhatsApp Image 2024-05-24 at 19 15 53_ea92d8ba](https://github.com/SoahamMoulree/RISC-V-Repo/assets/169994191/518b1151-97d3-43fd-aa52-ee23318897a3)
+
+
 #### USING RISC V DISASSEMBLER
   - Comment out the libraries, printf and scanf statement from the c program.
   
