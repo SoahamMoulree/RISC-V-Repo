@@ -15,6 +15,12 @@
 
 ![WhatsApp Image 2024-05-23 at 09 33 48_9bc62b8e](https://github.com/SoahamMoulree/RISC-V-Repo/assets/169994191/48dc6878-4757-4d95-8e74-c417270dd5cf)
 
+## GENERATING ASSEMBLY CODE FOR THE COUNTER, MATRIX AND ALU C CODE IN RISC V COMPILER
+
+#### - Assembly Code is uploaded as a txt file in this repo. Steps provided here :
+
+
+
 
 
 
