@@ -64,26 +64,26 @@
 
 - Taking the assembly code from the godbolt compiler and assign random number of clock cycles it takes to execute the program.
 
-- The assembly codes are provided in a seperate file(filename_gb.txt).The numbers in the bracket(In the Assembly Code file) represent the number of clock cycles it takes to perform a function. Assuming value of 1 clock cycle to be equal to 1ps.
+- The assembly codes are provided in a seperate file(filename_gb.txt).The numbers in the bracket(In the Assembly Code file) represent the number of clock cycles it takes to perform a function. Assuming value of 1 clock cycle to be equal to 1ns.
     
 
   #### COUNTER
 
  CPU time = (total number of clock cycles) * (total number of instructions)*(time period of 1 clock cycle)
-          =   (4 + 2 + 3 + 5 + 1 + 2 + 3 + 5 + 1 + 4 + 1 + 1 + 2 + 3 + 4 + 2 + 3 + 5 + 1 + 2 + 3 + 5 + 4 + 2 + 3 + 5 + 3 + 5 + 4 + 2 + 3 + 4 + 2 + 3 + 5 + 4 + 2 + 3 + 5 + 2 + 3 + 4 + 5 + 4 + 2 + 1) *(41)(1ps)
-          = (116)*(41)*(1ps) = 4756ps = CPU time of counter program.
+          =   (4 + 2 + 3 + 5 + 1 + 2 + 3 + 5 + 1 + 4 + 1 + 1 + 2 + 3 + 4 + 2 + 3 + 5 + 1 + 2 + 3 + 5 + 4 + 2 + 3 + 5 + 3 + 5 + 4 + 2 + 3 + 4 + 2 + 3 + 5 + 4 + 2 + 3 + 5 + 2 + 3 + 4 + 5 + 4 + 2 + 1) *(41)(1ns)
+          = (116)*(41)*(1ps) = 4756ns = CPU time of counter program.
           
 
 #### MATRIX MULTIPLICATION.    
 
 CPU time = (total number of clock cycles) * (total number of instructions)*(time period of 1 clock cycle)
-         = (119)*(42)*(1ps) = 4998ps
+         = (119)*(42)*(1ns) = 4998ns
 
 
 #### 4-BIT ALU   
 
 CPU time = (total number of clock cycles) * (total number of instructions)*(time period of 1 clock cycle)
-         = (169)*(45)*(1ps) = 7605ps
+         = (169)*(45)*(1ns) = 7605ns
 
 
 
