@@ -15,6 +15,11 @@
 
 #### ARCHITECTURE FOR A SMART DUSTBIN
 
+- Ultrasonic sensor - 1 detects the garbage incoming and opens the lid of the bin using a servo motor.
+- The second Ultrasonic sensor is placed inside the bin which is used to detect if the dustbin is full and rings a buzzer. 
+
+![image](https://github.com/SoahamMoulree/RISC-V-Repo/assets/169994191/84a18e8d-7436-439b-a3e1-f10bef0f6634)
+
 
 
 
