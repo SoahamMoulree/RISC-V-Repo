@@ -3,7 +3,7 @@
 ## Trying other C code with Risc-V compiler:
 
 #### FACTORIAL
--To get the spike output use the following commands as shown in the screenshot
+- To get the spike output use the following commands as shown in the screenshot
 
 ![WhatsApp Image 2024-05-30 at 14 24 08_7fc5851d](https://github.com/SoahamMoulree/RISC-V-Repo/assets/169994191/d5214350-e8fb-4dee-9bc2-a89eb8bb5dfb)
 
