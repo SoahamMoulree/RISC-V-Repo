@@ -22,7 +22,7 @@
 
 ## I/O MAPPING ACCORDING TO APPLICATION
 
-x30 register
+#### x30 REGISTER
 
 x30[0] --> data read from Ultrasonic Sensor - 1 used as input.
 
