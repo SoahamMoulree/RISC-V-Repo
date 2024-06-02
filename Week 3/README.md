@@ -20,6 +20,20 @@
 
 ![image](https://github.com/SoahamMoulree/RISC-V-Repo/assets/169994191/84a18e8d-7436-439b-a3e1-f10bef0f6634)
 
+## I/O MAPPING ACCORDING TO APPLICATION
+
+x30 register
+
+x30[0] --> data read from Ultrasonic Sensor - 1 used as input.
+
+x30[1] -->  data read from Ultrasonic Sensor - 2 used as input.
+
+x30[2] --> output to Servo Motor (To open and close the lid of the dustbin).
+
+x30[3] --> output to Buzzer (To indicate the buzzer is full).
+
+
+
 
 
 
