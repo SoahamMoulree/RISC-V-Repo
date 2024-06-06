@@ -15,22 +15,22 @@
 
 #### ARCHITECTURE FOR A SMART DUSTBIN
 
-- Ultrasonic sensor - 1 detects the garbage incoming and opens the lid of the bin using a servo motor.
-- The second Ultrasonic sensor is placed inside the bin which is used to detect if the dustbin is full and rings a buzzer. 
+- IR sensor - 1 detects the garbage incoming and opens the lid of the bin using a servo motor.
+- The second IR sensor is placed inside the bin which is used to detect if the dustbin is full and rings a buzzer. 
 
-![image](https://github.com/SoahamMoulree/RISC-V-Repo/assets/169994191/84a18e8d-7436-439b-a3e1-f10bef0f6634)
+![image](https://github.com/SoahamMoulree/RISC-V-Repo/assets/169994191/72722780-27e8-45cf-a7f6-b0ea83c9eb84)
 
 ## I/O MAPPING ACCORDING TO APPLICATION
 
 #### x30 REGISTER
 
-x30[0] --> data read from Ultrasonic Sensor - 1 used as input.
+x30[0] --> data read from Infrared Sensor - 1 used as input.
 
-x30[1] -->  data read from Ultrasonic Sensor - 2 used as input.
+x30[1] -->  data read from Infrared Sensor - 2 used as input.
 
 x30[2] --> output to Servo Motor (To open and close the lid of the dustbin).
 
-x30[3] --> output to Buzzer (To indicate the buzzer is full).
+x30[3] --> output to Buzzer (To indicate the bin is full).
 
 
 
