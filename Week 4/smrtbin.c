@@ -63,8 +63,7 @@ int main()
         // Masks to clear the specific bits for servo and buzzer outputs
         int servo_mask = 0xFFFFFFF3; // Clear x30[2] and x30[3] bits (two bits for servo control)
         int buzzer_mask = 0xFFFFFFEF; // Clear x30[4] bit
-
-        // Combine servo positions into one variable
+	    
         int servo_pos = (servo_pos_2) | (servo_pos_1<< 1);
 
         asm volatile("andi x30, x30, %0\n\t"    
