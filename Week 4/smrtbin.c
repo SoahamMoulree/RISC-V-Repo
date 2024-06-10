@@ -33,7 +33,7 @@ int main()
             servo_pos_2 = 1; // Open the lid
 		
 	    for(int i = 0; i < 100000; i++){
-		
+		// delay for the motor to rotate 100 degrees clockwise.
 			}
             servo_pos_1 = 0; // Hold the lid
             servo_pos_2 = 0; // Hold the lid
@@ -44,7 +44,7 @@ int main()
             servo_pos_2 = 1; // Close the lid
 		
 	    for(int i = 0; i < 100000; i++){
-		
+		// delay for the motor to rotate 100 degrees anti-clockwise.
 			}
             servo_pos_1 = 0; // Hold the lid
             servo_pos_2 = 0; // Hold the lid
