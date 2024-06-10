@@ -28,9 +28,9 @@ x30[0] --> data read from Infrared Sensor - 1 used as input.
 
 x30[1] -->  data read from Infrared Sensor - 2 used as input.
 
-x30[2] --> output to Servo Motor (To open and close the lid of the dustbin).
+x30[2] and x30[3] --> output to Servo Motor (To open and close the lid of the dustbin).
 
-x30[3] --> output to Buzzer (To indicate the bin is full).
+x30[4] --> output to Buzzer (To indicate the bin is full).
 
 
 
