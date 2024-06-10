@@ -8,4 +8,5 @@
 - Time take to rotate 1 degree = 1 x 60 sec / (21600) = 0.00278 sec = 2.78 ms.
 - I want the motor to rotate 100 degrees so, the time taken to rotate 100 degrees = 100 x 2.78 ms = 278 ms.
 - Number of cycles it take to rotate 100 degrees = 278 ms / 278 ns = 100000 cycles to rotate 100 degrees.
+- Put this value in the c code for the delay.
   
