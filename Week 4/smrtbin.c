@@ -7,25 +7,28 @@ int main()
     int servo_pos_1 = 0; // If both servo pos = 0 : motor will hold its position, if servo_pos_1 = 0 and servo_pos_2 = 1 then motor rotates clockwise,if servo_pos_1 = 1 and servo_pos_2 = 0 then motor 			    rotates anti-clockwise
     int servo_pos_2 = 0; 
     int buzzer_state = 0; // buzzer state: 0 is off, 1 is on
+    
+    int ir_lid_input = 0x00000001;
+    int ir_full_input = 0x00000010;
 
       //creating a test bench.
-    int ir_lid_mask = 0xFFFFFE;// for ir_lid
+    int ir_lid_mask = 0xFFFFFFFE;// for ir_lid
     
 
     asm volatile(
     "and x30, x30, %0\n\t"    
     "or x30, x30, %1\n\t"       
     :
-    : "r"(ir_lid_mask), "r"(0) // writing 1 in the x30[0] bit to activate the buzzer 
+    : "r"(ir_lid_mask), "r"(ir_lid_input) // writing 1 in the x30[0] bit to activate the buzzer 
     : "x30"
 );
 
-    int ir_full_mask = 0xFFFFFFD; // for ir_full		
+    int ir_full_mask = 0xFFFFFFFD; // for ir_full		
     asm volatile(
     "and x30, x30, %0\n\t"    
     "or x30, x30, %1\n\t"       
     :
-    : "r"(ir_full_mask), "r"(1) // writing 1 in the x30[0] bit to activate the buzzer 
+    : "r"(ir_full_mask), "r"(ir_full_input) // writing 1 in the x30[1] bit to activate the buzzer 
     : "x30"
 );
 
@@ -49,7 +52,7 @@ int main()
         );
 
         // Set servo position based on IR sensor for lid control
-        if (ir_lid == 1)
+        if (ir_lid)
         {
             servo_pos_1 = 0; // Open the lid
             servo_pos_2 = 1; // Open the lid
