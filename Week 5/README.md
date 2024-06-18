@@ -11,10 +11,9 @@
 5. `and`
 6. `or`
 7. `andi`
-8. `beqz`
-9. `j`
-10. `bge`
-11. `lui`
-12. `slli`
+8. `j`
+9. `bge`
+10. `lui`
+11. `slli`
 
 
