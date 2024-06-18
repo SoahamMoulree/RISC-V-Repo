@@ -16,4 +16,7 @@
 10. `lui`
 11. `slli`
 
+### - Create a json file according to your configurations as upload in the repo.
+### - Upload the json file and the txt file into the software.
+### - A zip file will be created and the extract the zip file to get the two verilog files.
 
