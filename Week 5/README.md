@@ -17,6 +17,10 @@
 11. `slli`
 
 ### - Create a json file according to your configurations as upload in the repo.
+
 ### - Upload the json file and the txt file into the software.
-### - A zip file will be created and the extract the zip file to get the two verilog files.
+
+![WhatsApp Image 2024-06-18 at 17 32 02_d5425fb0](https://github.com/SoahamMoulree/RISC-V-Repo/assets/169994191/78b5fc12-2705-4894-93de-2545253924a2)
+
+### - A zip file will be created and the extract the zip file to get the two verilog files(processor.v and testbench.v).
 
