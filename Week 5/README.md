@@ -16,7 +16,7 @@
 10. `lui`
 11. `slli`
 
-### - Create a json file according to your configurations as upload in the repo.
+### - Create a json file according to your configurations as uploaded in the repo.
 
 ### - Upload the json file and the txt file into the software.
 
