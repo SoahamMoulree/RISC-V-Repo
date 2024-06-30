@@ -15,6 +15,23 @@
 
 ![image](https://github.com/SoahamMoulree/RISC-V-Repo/assets/169994191/0bef1902-6e93-41d6-9053-eeb92d0e0c3f)
 
-- Also bypass the UART protocol to Protocol to reduce the time required for GTKWave simulations by commenting out all the .
+- Also bypass the UART protocol to Protocol to reduce the time required for GTKWave simulations by commenting out all the @(posedgelow_clk);write_instruction(32'h00000000); after  uart_rx_en = 1'b1 (You can see it in the testbench) and setting writing_inst_done = 1 in the processor.v file(inside the wrapper module).
+
+- ## GTK VERILOG SIMULATIONS
+
+- command to generate simulations:
+  
+![WhatsApp Image 2024-06-30 at 17 05 11_fec9d743](https://github.com/SoahamMoulree/RISC-V-Repo/assets/169994191/c325a033-2c2c-482d-a06d-812f8700d4d3)
+
+### SIMULATION: 
+
+1) WHEN INPUT = 11;
+
+   ![WhatsApp Image 2024-06-30 at 17 04 14_d57b10c7](https://github.com/SoahamMoulree/RISC-V-Repo/assets/169994191/a1ff48db-0e3e-44b5-8a5f-37a7cecfab0d)
+
+2) WHEN INPUT = 10;
+
+   ![WhatsApp Image 2024-06-30 at 17 04 14_c4d703ab](https://github.com/SoahamMoulree/RISC-V-Repo/assets/169994191/02fb4ee8-dfe5-4abc-92f7-f49a469c34c1)
+
 
 
