@@ -15,6 +15,6 @@
 
 ![image](https://github.com/SoahamMoulree/RISC-V-Repo/assets/169994191/0bef1902-6e93-41d6-9053-eeb92d0e0c3f)
 
-- Also bypass the UART protocol to Protocol to reduce the time required for GTKWave simulations.
+- Also bypass the UART protocol to Protocol to reduce the time required for GTKWave simulations by commenting out all the .
 
-  
+
