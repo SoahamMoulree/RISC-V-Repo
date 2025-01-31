@@ -9,7 +9,7 @@ int main()
     int buzzer_state = 0; // buzzer state: 0 is off, 1 is on
     
     int ir_lid_input = 0x00000001;
-    int ir_full_input = 0x00000010;
+    int ir_full_input = 0x00000002;
 
       //creating a test bench.
     int ir_lid_mask = 0xFFFFFFFE;// for ir_lid
